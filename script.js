@@ -31,7 +31,7 @@ function addTodo(text){
 
 function saveToLocalStorage(){
     const todos=[];
-    document.querySelectorAll("#todo_list li span").forEach(span=>{
+    document.querySelectorAll("#todo-list li span").forEach(span=>{
         todos.push(span.textContent);
     });
     localStorage.setItem("todos",JSON.stringify(todos));
