@@ -19,7 +19,7 @@ function addTodo(text){
     const li=document.createElement("li");
     li.innerHTML=`
     <span>${text}</span>
-    <button class="delete">削除</button>
+    <button class="delete">Done</button>
     `;
     todolist.appendChild(li);
 
